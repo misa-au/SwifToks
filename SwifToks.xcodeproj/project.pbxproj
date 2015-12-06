@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85CC8734833334AFACAC9102 /* Pods_SwifToks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D7879AC482BE5418282067 /* Pods_SwifToks.framework */; };
+		AE0ADB5A1C133BB1007DFFDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0ADB591C133BB1007DFFDE /* AppDelegate.swift */; };
+		AE0ADB5C1C133BB1007DFFDE /* MainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0ADB5B1C133BB1007DFFDE /* MainFeedViewController.swift */; };
+		AE0ADB5E1C133BB1007DFFDE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0ADB5D1C133BB1007DFFDE /* SecondViewController.swift */; };
+		AE0ADB611C133BB1007DFFDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0ADB5F1C133BB1007DFFDE /* Main.storyboard */; };
+		AE0ADB631C133BB1007DFFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0ADB621C133BB1007DFFDE /* Assets.xcassets */; };
+		AE0ADB661C133BB1007DFFDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0ADB641C133BB1007DFFDE /* LaunchScreen.storyboard */; };
+		AE0ADB6F1C134241007DFFDE /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0ADB6E1C134241007DFFDE /* NetworkClient.swift */; };
+		AE0ADB721C1342FF007DFFDE /* IGUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0ADB711C1342FF007DFFDE /* IGUser.swift */; };
+		AE0ADB741C13430E007DFFDE /* IGMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0ADB731C13430E007DFFDE /* IGMedia.swift */; };
+		AE0ADB761C13546A007DFFDE /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0ADB751C13546A007DFFDE /* Login.storyboard */; };
+		AE0ADB781C1354F5007DFFDE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0ADB771C1354F5007DFFDE /* LoginViewController.swift */; };
+		AEA6EF271C13E10B00C63983 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA6EF261C13E10B00C63983 /* DataController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F30C79E2594B60E84AB8AC3 /* Pods-SwifToks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifToks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwifToks/Pods-SwifToks.debug.xcconfig"; sourceTree = "<group>"; };
+		7A2018B68526F3F1237AB6C7 /* Pods-SwifToks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifToks.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwifToks/Pods-SwifToks.release.xcconfig"; sourceTree = "<group>"; };
+		AE0ADB561C133BB1007DFFDE /* SwifToks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifToks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0ADB591C133BB1007DFFDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE0ADB5B1C133BB1007DFFDE /* MainFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedViewController.swift; sourceTree = "<group>"; };
+		AE0ADB5D1C133BB1007DFFDE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AE0ADB601C133BB1007DFFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE0ADB621C133BB1007DFFDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE0ADB651C133BB1007DFFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE0ADB671C133BB1007DFFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0ADB6E1C134241007DFFDE /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		AE0ADB711C1342FF007DFFDE /* IGUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGUser.swift; sourceTree = "<group>"; };
+		AE0ADB731C13430E007DFFDE /* IGMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGMedia.swift; sourceTree = "<group>"; };
+		AE0ADB751C13546A007DFFDE /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		AE0ADB771C1354F5007DFFDE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AEA6EF261C13E10B00C63983 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		E0D7879AC482BE5418282067 /* Pods_SwifToks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifToks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0ADB531C133BB1007DFFDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CC8734833334AFACAC9102 /* Pods_SwifToks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE0ADB4D1C133BB1007DFFDE = {
+			isa = PBXGroup;
+			children = (
+				AE0ADB581C133BB1007DFFDE /* SwifToks */,
+				AE0ADB571C133BB1007DFFDE /* Products */,
+				B036DB8E41E2D90EB3121E7A /* Pods */,
+				DBCE586420CE333573D6E3D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE0ADB571C133BB1007DFFDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0ADB561C133BB1007DFFDE /* SwifToks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0ADB581C133BB1007DFFDE /* SwifToks */ = {
+			isa = PBXGroup;
+			children = (
+				AEA6EF251C13E0CF00C63983 /* DataController */,
+				AE4929AE1C13895C007E14BF /* UI */,
+				AE4929AD1C138945007E14BF /* Resources */,
+				AE4929AC1C138938007E14BF /* Storyboards */,
+				AE0ADB701C1342E7007DFFDE /* Models */,
+				AE0ADB6D1C134220007DFFDE /* Networking */,
+				AE0ADB591C133BB1007DFFDE /* AppDelegate.swift */,
+			);
+			path = SwifToks;
+			sourceTree = "<group>";
+		};
+		AE0ADB6D1C134220007DFFDE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AE0ADB6E1C134241007DFFDE /* NetworkClient.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		AE0ADB701C1342E7007DFFDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE0ADB711C1342FF007DFFDE /* IGUser.swift */,
+				AE0ADB731C13430E007DFFDE /* IGMedia.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		AE4929AC1C138938007E14BF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AE0ADB5F1C133BB1007DFFDE /* Main.storyboard */,
+				AE0ADB641C133BB1007DFFDE /* LaunchScreen.storyboard */,
+				AE0ADB751C13546A007DFFDE /* Login.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		AE4929AD1C138945007E14BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE0ADB671C133BB1007DFFDE /* Info.plist */,
+				AE0ADB621C133BB1007DFFDE /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AE4929AE1C13895C007E14BF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AE0ADB5B1C133BB1007DFFDE /* MainFeedViewController.swift */,
+				AE0ADB5D1C133BB1007DFFDE /* SecondViewController.swift */,
+				AE0ADB771C1354F5007DFFDE /* LoginViewController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		AEA6EF251C13E0CF00C63983 /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				AEA6EF261C13E10B00C63983 /* DataController.swift */,
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		B036DB8E41E2D90EB3121E7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F30C79E2594B60E84AB8AC3 /* Pods-SwifToks.debug.xcconfig */,
+				7A2018B68526F3F1237AB6C7 /* Pods-SwifToks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBCE586420CE333573D6E3D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0D7879AC482BE5418282067 /* Pods_SwifToks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0ADB551C133BB1007DFFDE /* SwifToks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0ADB6A1C133BB1007DFFDE /* Build configuration list for PBXNativeTarget "SwifToks" */;
+			buildPhases = (
+				CFE17BC890E021A5C15FE0CD /* Check Pods Manifest.lock */,
+				AE0ADB521C133BB1007DFFDE /* Sources */,
+				AE0ADB531C133BB1007DFFDE /* Frameworks */,
+				AE0ADB541C133BB1007DFFDE /* Resources */,
+				C456D7D345A9DDA8DDB37BFD /* Embed Pods Frameworks */,
+				C8D57245CAC4F60198D95E95 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwifToks;
+			productName = SwifToks;
+			productReference = AE0ADB561C133BB1007DFFDE /* SwifToks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0ADB4E1C133BB1007DFFDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = misa;
+				TargetAttributes = {
+					AE0ADB551C133BB1007DFFDE = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = AE0ADB511C133BB1007DFFDE /* Build configuration list for PBXProject "SwifToks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE0ADB4D1C133BB1007DFFDE;
+			productRefGroup = AE0ADB571C133BB1007DFFDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0ADB551C133BB1007DFFDE /* SwifToks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0ADB541C133BB1007DFFDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0ADB761C13546A007DFFDE /* Login.storyboard in Resources */,
+				AE0ADB661C133BB1007DFFDE /* LaunchScreen.storyboard in Resources */,
+				AE0ADB631C133BB1007DFFDE /* Assets.xcassets in Resources */,
+				AE0ADB611C133BB1007DFFDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C456D7D345A9DDA8DDB37BFD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifToks/Pods-SwifToks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D57245CAC4F60198D95E95 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifToks/Pods-SwifToks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE17BC890E021A5C15FE0CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0ADB521C133BB1007DFFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0ADB781C1354F5007DFFDE /* LoginViewController.swift in Sources */,
+				AE0ADB5E1C133BB1007DFFDE /* SecondViewController.swift in Sources */,
+				AE0ADB741C13430E007DFFDE /* IGMedia.swift in Sources */,
+				AE0ADB5A1C133BB1007DFFDE /* AppDelegate.swift in Sources */,
+				AE0ADB5C1C133BB1007DFFDE /* MainFeedViewController.swift in Sources */,
+				AEA6EF271C13E10B00C63983 /* DataController.swift in Sources */,
+				AE0ADB6F1C134241007DFFDE /* NetworkClient.swift in Sources */,
+				AE0ADB721C1342FF007DFFDE /* IGUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE0ADB5F1C133BB1007DFFDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0ADB601C133BB1007DFFDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE0ADB641C133BB1007DFFDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0ADB651C133BB1007DFFDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE0ADB681C133BB1007DFFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE0ADB691C133BB1007DFFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE0ADB6B1C133BB1007DFFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F30C79E2594B60E84AB8AC3 /* Pods-SwifToks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwifToks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misa.SwifToks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE0ADB6C1C133BB1007DFFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2018B68526F3F1237AB6C7 /* Pods-SwifToks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwifToks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.misa.SwifToks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE0ADB511C133BB1007DFFDE /* Build configuration list for PBXProject "SwifToks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0ADB681C133BB1007DFFDE /* Debug */,
+				AE0ADB691C133BB1007DFFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0ADB6A1C133BB1007DFFDE /* Build configuration list for PBXNativeTarget "SwifToks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0ADB6B1C133BB1007DFFDE /* Debug */,
+				AE0ADB6C1C133BB1007DFFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0ADB4E1C133BB1007DFFDE /* Project object */;
+}

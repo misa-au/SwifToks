@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="iMx-zY-81j">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="kYN-Un-I7e">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="iMx-zY-81j" customClass="LoginViewController" customModule="SwifToks" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dFW-j1-kMv"/>
+                        <viewControllerLayoutGuide type="bottom" id="8dO-yt-c5T"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e1k-JA-6zf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram_rainbow_banner" translatesAutoresizingMaskIntoConstraints="NO" id="QQa-lC-NUq">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nok-t2-R99">
+                                <rect key="frame" x="200" y="353" width="200" height="150"/>
+                                <state key="normal" image="instagram_logo__transparent_background__by_instahack-d8e94oc"/>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="iMx-zY-81j" eventType="touchUpInside" id="xCf-Nr-V2t"/>
+                                </connections>
+                            </button>
+                            <webView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fJy-si-JXf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="iMx-zY-81j" id="ylx-d5-kBL"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="QQa-lC-NUq" secondAttribute="trailing" id="7qD-1z-6cW"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="fJy-si-JXf" secondAttribute="bottom" id="CRj-aJ-i9k"/>
+                            <constraint firstItem="fJy-si-JXf" firstAttribute="top" secondItem="e1k-JA-6zf" secondAttribute="topMargin" id="HS4-RA-VHp"/>
+                            <constraint firstItem="8dO-yt-c5T" firstAttribute="top" secondItem="Nok-t2-R99" secondAttribute="bottom" constant="97" id="TfH-Am-xif"/>
+                            <constraint firstAttribute="trailing" secondItem="fJy-si-JXf" secondAttribute="trailing" id="VIM-uK-Cfx"/>
+                            <constraint firstItem="fJy-si-JXf" firstAttribute="leading" secondItem="e1k-JA-6zf" secondAttribute="leading" id="b9R-Uz-bcQ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="QQa-lC-NUq" secondAttribute="bottom" id="cGK-Xd-Hy8"/>
+                            <constraint firstItem="Nok-t2-R99" firstAttribute="centerX" secondItem="e1k-JA-6zf" secondAttribute="centerX" id="pVs-8d-SLP"/>
+                            <constraint firstItem="QQa-lC-NUq" firstAttribute="leading" secondItem="e1k-JA-6zf" secondAttribute="leading" id="qF8-tE-QYq"/>
+                            <constraint firstItem="QQa-lC-NUq" firstAttribute="top" secondItem="e1k-JA-6zf" secondAttribute="topMargin" id="vmj-cA-7TI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="fJy-si-JXf" id="JcN-A1-o5t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pu5-Bm-U4g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="161" y="209"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="instagram_logo__transparent_background__by_instahack-d8e94oc" width="200" height="150"/>
+        <image name="instagram_rainbow_banner" width="640" height="320"/>
+    </resources>
+</document>
